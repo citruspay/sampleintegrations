@@ -1,0 +1,226 @@
+*{    
+	margin:0;
+	padding:0;	
+}
+body{
+	font: normal 10px tahoma;
+	background-color:#f0f0f0;
+}
+.demoBody{
+	margin:0px auto;
+	width:50%;
+}
+.nav{
+  width: 50%;
+  text-align: center;
+  margin-top: 70px;
+  position: absolute;
+  display: inline-block;
+}
+.nav span{
+	text-align:center;
+	display:inline-block;
+	margin:0 5px;
+	width:140px;
+	padding:10px 0;
+	color:#555555;
+	font-size:18px;
+	background-color:#fffff;
+/* 	background: -webkit-linear-gradient(#fdc942 ,#f75b04);
+	background: -o-linear-gradient(#fdc942 ,#f75b04);
+	background: -moz-linear-gradient(#fdc942 ,#f75b04);
+	background: linear-gradient(#fdc942 ,#f75b04); */
+	border:2px solid #EBEBEB;
+	/*background: -webkit-linear-gradient(#449d44 ,#398439);*/
+	/*background: -o-linear-gradient(#449d44 ,#398439);*/
+	/*background: -moz-linear-gradient(#449d44 ,#398439);*/
+	/*background: linear-gradient(#449d44 ,#398439);*/
+	cursor:pointer;
+	border-radius: 5px;
+}
+.section{
+	width:100%;
+	height:600px;
+	margin-top:20px;
+	background:white;
+	box-shadow: 0px 0px 10px #ffffff;
+}
+.select_payment{
+	width: 290px;
+	height: 30px;
+	position: absolute;
+	background-color: #666666;
+	color: #ffffff;
+	margin-top: 14px;
+	margin-left: -10px;
+	font-size: 15px;
+	text-align: center;
+	padding-top: 5px;
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.25);
+}
+.pg{
+	margin:0 auto;
+	width:85%;
+	padding-top:20px;
+}
+.checked{
+	float: left;
+	position: relative;
+	left: 10px;
+	top: 10px;
+}
+.HeadText{
+	padding-top: 74px;
+	font-size:15px;
+	font-weight:bold;
+	color:#555555;
+}
+.btnFooter{
+	margin-top: 35px;
+	text-align: center;
+}
+/* ................................btn................................. */
+
+.pg button{
+	text-align: center;
+	width: 150px;
+	padding: 10px 0;
+	border: none;
+	color: white;
+	font-size: 16px;
+	border-radius: 3px;
+	cursor: pointer;
+	font-weight: normal;
+	display: inline-block;
+	background-color:#254d6d;
+	/* background: -webkit-linear-gradient(#fdc942 ,#f75b04);
+	background: -o-linear-gradient(#fdc942 ,#f75b04);
+	background: -moz-linear-gradient(#fdc942 ,#f75b04);
+	background: linear-gradient(#fdc942 ,#f75b04); */
+
+	/*background: -webkit-linear-gradient(#449d44 ,#398439);*/
+	/*background: -o-linear-gradient(#449d44 ,#398439);*/
+	/*background: -moz-linear-gradient(#449d44 ,#398439);*/
+	/*background: linear-gradient(#449d44 ,#398439);*/
+}
+/* ................................netbanking ............................. */
+
+.SelectBox{
+	margin:10px 0;
+}
+.SelectBox select{
+	outline:0;
+	background-repeat: no-repeat;
+	background-position: 300px;
+	width: 260px;
+	padding: 5px;
+	margin-top: 8px;
+	line-height: 1;
+	border-radius: 0px;
+	background-color: #FFFFFF;
+	color: gray;
+	font-size: 12px;
+	outline: none;
+}
+
+/* ................................card Payment ............................. */
+.CreditDebitCard{
+	/* text-align:center; */
+	margin-top:120px;
+}
+.CreditDebitCard input{
+	border-radius: 3px;
+	width: 530px;
+	height: 30px;
+	border: 2px solid #EBEBEB;
+	text-indent: 10px;
+	font-weight: 300;
+	font-size: 14px;
+	color: #598C9E;
+	background: url('images/blank.png') no-repeat scroll 480px 3px;
+	background-size: 40px;
+}
+.CreditDebitCard input:focus{
+	border: 2px solid #C8C8C8;
+	outline: 0;
+}
+.CitrusBank input{
+	border-color: #eeeeee;
+	border-radius: 7px;
+	width: 265px;
+	height: 30px;
+	border: 2px solid #eeeeee;
+	text-indent: 10px;
+	font-weight: 300;
+	font-size: 18px;
+	color: #598C9E;
+}
+.CitrusBank input:focus{
+	border: 2px solid #C8C8C8;
+	outline: 0;
+}
+
+
+.ExpCvv{	
+	margin:10px auto; 
+}
+
+/* ................................Saved Accounts ............................. */
+.savedAccounts{
+	vertical-align:middle;
+	vertical-align: middle;
+	height: 230px;
+	overflow-y: auto;
+	box-shadow: 0px 0px 3px rgbA(0,0,0,0.25);
+	border-radius: 4px;
+	margin-top: 50px;
+}
+.savedAccounts li{
+	text-indent:20px;
+	vertical-align:middle;
+	border-bottom:2px solid rgba(0,0,0,0.1);
+	padding: 5px 0;
+}
+.savedAccountsRadio{
+	vertical-align:middle;
+	margin-left:10px;
+}
+.savedAccountsImg{
+	vertical-align:middle;
+	margin-left:10px;
+}
+.savedAccountsCard{
+	vertical-align:middle;
+	font-size:12px;
+	color: #555555;
+	margin-left:10px;
+}
+.savedAccountsCvv{
+	vertical-align:middle;
+	border-radius: 3px;
+	width: 70px;
+	height: 30px;
+	border: 2px solid #EBEBEB;
+	text-indent: 10px;
+	font-weight: 300;
+	font-size: 15px;
+	color: #555555;
+	margin-left:10px;
+}
+input[type="button"]:disabled {
+	background: grey;
+}
+.errorMessage{
+	padding:10px;
+	color:red;font-size:14px;font-style:normal;
+}
+.spinnerDiv{
+	height:100%;width:100%;position:absolute;top:250px;
+}
+.loginLabel{
+	display: inline-block;
+	font-size: 12px;
+	width: 115px;
+	font-weight: bold;
+	color: #555555;
+}
